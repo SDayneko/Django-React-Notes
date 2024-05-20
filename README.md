@@ -38,21 +38,21 @@ This project is a full-stack web application that utilizes Django for the backen
 
   -Start the React frontend using Vite:
 
-      ```bash
-      npm run dev
-      ```
+  ```bash
+    npm run dev
+  ```
 
   -Create a production build of the application:
 
-      ```bash
-      npm run build
-      ```
+  ```bash
+    npm run build
+  ```
 
   -Preview the production build locally:
 
-      ```bash
-      npm run preview
-      ```
+  ```bash
+    npm run preview
+  ```
 
 ## Usage
 
