@@ -2,3 +2,4 @@
 env/
 # Ignore the notes.txt file
 notes.txt
+.gitignore
