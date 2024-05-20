@@ -1,5 +1,6 @@
 import { useState, useEffect} from "react"
 import api from "../api"
+import Note from "../components/Note";
 
 function Home() {
   const [notes, setNotes] = useState([]);
@@ -24,9 +25,9 @@ function Home() {
       .then((res) => {
         if (res.status === 204) alert("Note deleted!");
         else alert("Failed to delete note.");
+        getNotes();
       })
       .catch((error) => alert(error));
-    getNotes();
   }
 
   const createNote = (e) => {
@@ -36,15 +37,16 @@ function Home() {
         .then((res) => {
           if (res.status === 200) alert("Note created!");
           else alert("Failed to make note.");
+          getNotes();
       })
       .catch((err) => alert(err));
-      getNotes();
   }
  
   return (
     <div>
       <div>
         <h2>Notes</h2>
+        {notes.map((note) => <Note note={note} onDelete={deleteNote} key={note.id}/>)}
       </div>
       <h2>Create a Note</h2>
       <form onSubmit={createNote}>
