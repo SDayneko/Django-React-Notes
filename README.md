@@ -31,9 +31,11 @@ This project is a full-stack web application that utilizes Django for the backen
 2. **Frontend Setup**:
 
 - Run the following command to install the necessary dependencies:
-  `bash
+
+  ```bash
     npm install
-    `
+  ```
+
   -Start the React frontend using Vite:
 
       ```bash
