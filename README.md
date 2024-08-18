@@ -71,6 +71,10 @@ This project is a full-stack web application that utilizes Django for the backen
 3. **Register**:
    ![Register](/images/Register.png)
 
+## Web Development Services
+
+This project is part of the web development services provided by [PVSensors.com](https://pvsensors.com/). We specialize in creating custom web applications, including job boards, e-commerce platforms, and business websites. Visit our website to learn more about our services and how we can help bring your project to life.
+
 ## License
 
 This project is licensed under the MIT License.
